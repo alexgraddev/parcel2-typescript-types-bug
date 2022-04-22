@@ -1,0 +1,21 @@
+{
+  "name": "parcel2-typescript-types-bug",
+  "version": "1.0.0",
+  "author": "Alexey Semigradsky",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "parcel build src/index.ts"
+  },
+  "devDependencies": {
+    "@parcel/packager-ts": "2.5.0",
+    "@parcel/transformer-typescript-types": "2.5.0",
+    "parcel": "^2.5.0",
+    "typescript": ">=3.0.0"
+  },
+  "dependencies": {
+    "react": "^18.0.0"
+  }
+}
